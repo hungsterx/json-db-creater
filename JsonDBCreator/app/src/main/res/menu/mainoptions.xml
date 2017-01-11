@@ -2,8 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/mainoptionscreate"
-        android:title="Create New Database"/>
+        android:title="Create New Database"
+        android:onClick="createDatabase"/>
     <item android:id="@+id/mainoptionsopen"
-        android:title="Open Database" />
+        android:title="Open Database"
+        android:onClick="openDatabase"/>
 
 </menu>
